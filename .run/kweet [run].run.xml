@@ -1,12 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="kweet [run]" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
-      <option name="env">
-        <map>
-          <entry key="JAVA_TOOL_OPTIONS" value=" -javaagent:/tmp/digma-otel-jars/opentelemetry-javaagent.jar -Dotel.javaagent.extensions=/tmp/digma-otel-jars/digma-otel-agent-extension.jar -Dotel.exporter.otlp.traces.endpoint=http://localhost:5050 -Dotel.traces.exporter=otlp -Dotel.metrics.exporter=none -Dotel.instrumentation.experimental.span-suppression-strategy=none -Dotel.service.name=ktor-sample-kweet " />
-          <entry key="OTEL_RESOURCE_ATTRIBUTES" value="digma.environment=KWEET" />
-        </map>
-      </option>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$" />
       <option name="externalSystemIdString" value="GRADLE" />

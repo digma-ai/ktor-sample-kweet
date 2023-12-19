@@ -69,4 +69,10 @@ fun Route.postNew(dao: DAOFacade, hashFunction: (String) -> String) {
 @WithSpan
 suspend fun testWithSpanAnnotation(){
     delay(10)
+    "aaa".a()
+}
+
+@WithSpan
+fun String.a():String{
+    return this.plus("a")
 }
